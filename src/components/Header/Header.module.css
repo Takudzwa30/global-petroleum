@@ -1,6 +1,6 @@
 .header {
   padding-top: 15px;
-  margin-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .head {
@@ -46,11 +46,7 @@
   transform: translate(-50%, -50%);
   width: 4px;
   height: 4px;
-  background: linear-gradient(
-    180deg,
-    linear-gradient(180deg, #ff5c1d 0%, #ffa02b 100%) 0%,
-    #ffa02b 100%
-  );
+  background: #ff5c1d;
 }
 
 .address {
