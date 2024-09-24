@@ -1,0 +1,49 @@
+.meeting {
+  border-radius: 33px 33px 0 0;
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.formGrid h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.field {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.error {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid red;
+  font-size: 13px;
+  width: 100%;
+}
+
+.btnWrapper {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .formGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

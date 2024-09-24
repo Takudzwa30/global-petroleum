@@ -7,6 +7,7 @@ import Solutions from "../../components/Solutions/Solutions";
 import Partners from "../../components/Partners/Partners";
 import WhatWeDo from "../../components/WhatWeDo/WhatWeDo";
 import Updates from "../../components/Updates/Updates";
+import ContactUs from "../../components/ContactUs/ContactUs";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
         <Partners />
         <WhatWeDo />
         <Updates />
+        <ContactUs />
       </div>
     </div>
   );
