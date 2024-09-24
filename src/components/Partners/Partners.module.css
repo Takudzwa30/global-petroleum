@@ -1,0 +1,19 @@
+.whoWeAre {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btnWrapper {
+  margin-inline: auto;
+  width: fit-content;
+}
+
+.trusted {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-block: 80px 30px;
+}
