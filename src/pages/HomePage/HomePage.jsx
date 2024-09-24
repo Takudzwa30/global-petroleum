@@ -6,6 +6,7 @@ import Header from "../../components/Header/Header";
 import Solutions from "../../components/Solutions/Solutions";
 import Partners from "../../components/Partners/Partners";
 import WhatWeDo from "../../components/WhatWeDo/WhatWeDo";
+import Updates from "../../components/Updates/Updates";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         <Solutions />
         <Partners />
         <WhatWeDo />
+        <Updates />
       </div>
     </div>
   );
