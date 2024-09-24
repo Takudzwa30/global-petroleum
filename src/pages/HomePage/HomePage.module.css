@@ -1,0 +1,14 @@
+.homepage {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.home {
+  margin-inline: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .home {
+    margin-inline: 20px;
+  }
+}
